@@ -1,7 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
 
 
 import numpy as np
@@ -13,10 +9,7 @@ import os
 
 # Plusieurs méthodes ont été proposées dans la littérature pour la subdivision en cellules, nous
 # verrons dans ce cours :
-# - La méthode de Kusiak 
-# - La méthode de King 
-# - La méthode de Wei & Kern
-# 
+# - La méthode de Kusiak  
 # Ces méthodes visent à trouver des groupes de pièces spécifiques à certains groupes de
 # machines.
 
@@ -222,10 +215,6 @@ def Tri(PM,T1,T2):
         PM3[j]=PM2[T2[j]-1]
     return PM3.T
 
-
-# #### Dans cette partie on va expoter la matrice triée dans le fichier EXEL
-
-# In[11]:
 
 
 #Creation de la matrice trier 

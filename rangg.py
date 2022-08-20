@@ -1,9 +1,4 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Sun Dec 13 21:08:05 2020
-
-@author: user
-"""
+# la méthode de rang : La méthode consiste à trouver l'ordre optimal de placement des machines dans les ilots.
 
 import numpy as np
 from scipy import *
